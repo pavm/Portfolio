@@ -1,0 +1,84 @@
+<html>
+<head>
+  
+<style>
+body {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    animation: gradient 15s ease infinite;
+    background-attachment: fixed;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.links {
+  width: 80%;
+  max-width: 800px;
+}
+
+.button {
+  background-color: transparent;
+  color: white;
+  border: 2px solid white;
+  width: 70%;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: white;
+  color: purple;
+}
+  
+.button.special {
+  background-color: #335533;
+}
+
+.button.special:hover {
+  background-color: white;
+  color: #119911;
+}
+
+html, body {
+  width: 100%;
+  height:100%;
+}
+
+</style>
+
+</head>
+
+<body>
+  <div class="links">
+    <h2>Pavandeep Mann</h2>
+    <a href="https://pavm.github.io/landing-page-1/" class="button" target="blank">Landing Page Login/Signup</a></br>
+    <a href="https://pavm.github.io/fxbm/" class="button" target="blank">Comparison Website</a></br>
+    <a href="https://pavm.github.io/Pricing-slider-component/" class="button" target="blank">Price Slider Component</a></br>
+    <a href="https://pavm.github.io/github-account-viewer/" class="button" target="blank">Github User Search App</a></br>
+  </div>
+</body>
+</html>
